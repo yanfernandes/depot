@@ -16,6 +16,6 @@ product = Product.create(title: 'Rails Scales!',
     </p>),
   price: 30.95)
   product.image.attach(io: File.open(
-    Rails.root.join('db', 'images', 'cprpo.jpg')),
-      filename: 'cprpo.jpg')
+    Rails.root.join('db', 'images', 'scales.jpg')),
+      filename: 'scales.jpg')
 product.save! # ...
